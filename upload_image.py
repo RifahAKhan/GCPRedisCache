@@ -10,7 +10,7 @@ if __name__ == "__main__":
     redis_port = 6378  
     client = get_redis_client(redis_host, redis_port)
     
-    image_path = '/home/rifahakhan/GCPRedisCache/images/gcp.png'  # Adjust this based on your VM's directory structure
+    image_path = '/home/g20cse0026/GCPRedisCache/images/gcp.png'  # Adjust this based on your VM's directory structure
   
     redis_key = 'image_key'
     
